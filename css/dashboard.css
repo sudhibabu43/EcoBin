@@ -1,0 +1,74 @@
+*{
+    font-family: 'Lilita One', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+    --text-color:#fff;
+    --bg-color:#000000;
+    --main-color:#48ff00;
+  
+    --h1-font: 6rem;
+    --h2-font: 3rem;
+    --p-font: 1rem;
+}
+
+
+.navbarhead{
+    background-color: #ffffff;
+}
+
+
+.navbar-brand{
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.navbar-brand:hover{
+    
+    color: #000000;
+}
+
+.bin{
+    color: rgb(141, 232, 141);
+  }
+a {
+    color: black;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.active {
+    color: white;
+    background-color: #72c255;
+  }
+
+.dash{
+    background-color:  #c8ffb2; 
+}
+
+th{
+    color: #000000;
+}
+td{
+    color: #000000;
+}
+
+.btn-m{
+ 
+    background:#48ff00;
+    color: var(--bg-color);
+    border:  solid transparent;
+    border-radius: 5px;
+    transition: all .50s ease;
+}
+.btn-m:hover {
+    transform: translateX(10px);
+    border:  solid black;
+    background-color: #72c255;
+    color:#000000;
+}

@@ -1,0 +1,344 @@
+*{
+  font-family: 'Lilita One', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+:root {
+  --text-color:#fff;
+  --bg-color:#000000;
+  --main-color:#48ff00;
+
+  --h1-font: 6rem;
+  --h2-font: 3rem;
+  --p-font: 1rem;
+}
+
+/* .............................................................homepage............................................................. */
+
+
+/* navbar color */
+.navbarc{
+  background-color: #000000;
+  padding-left: 260px;
+  /* padding-top: 20px; */
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+/* for the overall body */
+
+.home{
+  background-color: #000000;
+}
+/* ecobin fonts and settings in nav bar */
+.navbar-brand{
+  
+  font-size: 33px;
+  font-weight: 700 ;
+  margin-right: 5rem;
+  margin-left: 2;
+  color: white;
+}
+/* for navbar text */
+.navbar-text{
+
+align-items: center;
+font-size: 18px;
+}
+/* for navbar text hover*/
+.navbar-text:hover{
+  color:rgb(42, 244, 42);
+}
+
+/* navbar ecobin hover color */
+.navbar-brand:hover{
+  font-size: 33px;
+  color: white;
+}
+/* color of bin in navabar ecobin */
+.bin{
+  color: rgb(42, 244, 42);
+}
+
+/* for a tag link to differnt pages */
+a{
+ 
+  
+  color: white;
+  font-size: var(--p-font);
+
+}
+/* when it is hover link to difeernt pages */
+a:hover{
+  color:rgb(42, 244, 42);
+}
+/* for the background image */
+.back-image{
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  filter: brightness(100%);
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(./img/112.png);
+  background-size: cover;
+
+  border-radius: 0;
+}
+/* welcome text */
+.weltext{
+  padding-top: 150px;
+  padding-left:220px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: var(--main-color);
+}
+
+
+/* for greener tomorrow line  */
+.aim{
+  padding-left: 150px;
+  font-size: var(--h1-font);
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+/* login button */
+
+.btn-l{
+  margin-left: 150px;
+  display: inline-block;
+  padding: 13px 40px;
+  background:#48ff00;
+  color: var(--bg-color);
+  font-size: 15px;
+  font-weight: 600;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: all .50s ease;
+}
+
+/* for signup button */
+.btn-s{
+  margin-left: 20px;
+  display: inline-block;
+  padding: 13px 40px;
+  background:#48ff00;
+  color: var(--bg-color);
+  font-size: 15px;
+  font-weight: 600;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: all .50s ease;
+}
+
+/* login button hover */
+.btn-l:hover {
+  transform: translateX(10px);
+  border: 2px solid var(--text-color);
+  background: transparent;
+  color:var(--text-color);
+}
+
+/* signin button hover */
+.btn-s:hover {
+  transform: translateX(10px);
+  border: 2px solid var(--text-color);
+  background: transparent;
+  color:var(--text-color);
+}
+
+/* for image */
+.image{
+  width: 100%;
+    height:auto;
+    border-radius: 10px;
+}
+
+/* for actaul image */
+.img{
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap:9rem
+
+}
+
+/* Our aim */
+.text-h3{
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--main-color);
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 20px;
+}
+
+/* big para  */
+p{
+  font-size: var(--p-font);
+  font-weight: 500;
+  line-height: 30px;
+  color: #ffffffab;
+  text-align: center;
+}
+
+/* suchitwa mission line */
+.text-h2{
+  font-size: var(--h2-font);
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 25px;
+  color: #fff;
+  text-align: center;
+}
+
+/* registration page top paddling  */
+.reg{
+ 
+  padding-top: 100px;
+}
+
+/* create acc text */
+.acc{
+  color: #48ff00;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+/* for all the text in the form */
+label{
+  font-size: var(--p-font);
+  font-weight: 500;
+  line-height: 30px;
+  color: #ffffffab;
+  text-align: center;
+
+}
+
+/* for icons */
+.i{
+  color: #fff;
+}
+
+/* warning script style */
+.warn{
+  color: #9c9c9c;
+}
+
+/* for em script */
+em{
+  color: #9c9c9c;
+}
+
+/* signup button  */
+.btn-m{
+ 
+  background:#48ff00;
+  color: var(--bg-color);
+  border:  solid transparent;
+  border-radius: 5px;
+  transition: all .50s ease;
+}
+
+/* signup button hover */
+.btn-m:hover {
+  transform: translateX(10px);
+  border:  solid var(--text-color);
+  background: transparent;
+  color:var(--text-color);
+}
+
+/* contact form design thing */
+.contact{
+  padding-left: 120px;
+  padding-top: 50px;
+  color:#9c9c9c;
+}
+
+/* contact form text  */
+.contactus{
+  color:#ffffff;
+  font-size: var(--h2-font);
+  font-weight: 400;
+}
+
+
+/* ..........................................................homepage...ends............................................................. */
+
+/* ......................................................................................................................................... */
+
+/* ..........................................................loginpage.starts............................................................. */
+
+
+/* loginpage for staff margin top */
+.lgin{
+  margin-top: 150px;
+}
+
+/* login page EcoBin */
+.log{
+  font-size: var(--h2-font);
+  font-weight:600;
+  color: var(--main-color);
+  text-align: center;
+}
+
+/* just for the color of the customer login */
+.Login{
+  color:#fff;
+
+}
+
+.shadow-l{
+  color: #ffffff;
+  box-shadow:0 4px 8px 0 rgb(75, 75, 75),0 6px 20px 0 rgb(75, 75, 75); 
+
+}
+
+/* ..........................................................loginpage ends...ends............................................................. */
+
+/* ......................................................................................................................................... */
+
+/* ........................................................dashboard.......starts............................................................. */
+
+
+/* dashboard side panel color */
+.dash{
+  background-color: #272727;
+  margin-bottom: 400px; 
+
+}
+
+.sidep{
+  padding: 15px;
+}
+
+.pcolform{
+  background-color: #000000;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.navbarhead{
+  background-color: #070707;
+  padding-left: 260px;
+  padding-top: 0px; 
+  padding-right: 2px;
+  padding-bottom: 0px;
+}
+
+.bdy{
+  background-color: rgb(26, 26, 26);
+}
+
+
